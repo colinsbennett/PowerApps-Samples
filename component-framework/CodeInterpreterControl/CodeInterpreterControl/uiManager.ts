@@ -15,6 +15,7 @@ export class UIManager {
 
     private initializeContainer(): void {
         this.container.style.height = "100%";
+        this.container.style.minHeight = "450px";
         this.container.style.width = "100%";
         this.container.style.display = "flex";
         this.container.style.flexDirection = "column";
@@ -28,6 +29,7 @@ export class UIManager {
         this.iframe = document.createElement("iframe");
         this.iframe.style.width = "100%";
         this.iframe.style.height = "100%";
+        this.iframe.style.minHeight = "450px";
         this.iframe.style.border = "none";
         this.iframe.style.display = "block";
         this.iframe.style.overflow = "hidden";
